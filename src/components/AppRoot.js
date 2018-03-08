@@ -16,8 +16,7 @@ import 'font-awesome/css/font-awesome.css'
 import 'antd-mobile/dist/antd-mobile.css'
 import AppRootMechanics from './AppRootMechanics'
 import HomePage from './pages/HomePage'
-import ProofMessagePage from './pages/ProofMessagePage'
-import GetLeadInfo from './pages/GetLeadInfo'
+
 
 
 class AppRoot extends Component {
@@ -25,11 +24,7 @@ class AppRoot extends Component {
 	render() {
     return (
       <Switch>
-
         <Route exact path='/' render={HomePage} />
-        <Route exact path='/m/:comm_id' component={ProofMessagePage} />
-        <Route exact path='/l/:lead_id' component={GetLeadInfo} />
-
       </Switch>
     )
 	}

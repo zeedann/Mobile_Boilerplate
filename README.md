@@ -1,6 +1,5 @@
 # About this boilerplate
 This is a simple React-Redux based boilerplate for making mobile-first "progressive web apps"
-See demo at http://kangzeroos-mobile-boilerplate.s3-website-us-east-1.amazonaws.com/
 
 ## Getting Started
 $ npm install
